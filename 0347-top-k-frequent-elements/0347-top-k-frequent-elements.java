@@ -28,9 +28,7 @@ class Solution {
             
         }
          
-         for(int c: result){
-             System.out.println(c);
-         }
+       
         
        
        
