@@ -19,7 +19,7 @@ class Solution {
        }
       
        
-      if(trackNeg - trackPos == trackNeg || trackPos - trackNeg == trackPos ){
+      if(trackNeg == 0 || trackPos == 0 ){
         
           return true;
       }else{
