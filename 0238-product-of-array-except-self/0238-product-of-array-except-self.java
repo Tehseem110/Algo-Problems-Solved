@@ -2,7 +2,7 @@ class Solution {
     public int[] productExceptSelf(int[] nums) {
          int[] right = new int[nums.length];
       int[] left = new int[nums.length];
-      int[] result = new int[nums.length];
+    //   int[] result = new int[nums.length];
          
          for(int i = 0 ; i < nums.length ; i++){
              
@@ -28,9 +28,9 @@ class Solution {
             
          }
           for(int i = 0 ; i < nums.length ; i++){
-             result[i] = right[i] * left[i];
+             nums[i] = right[i] * left[i];
          }
          
-         return result;
+         return nums;
     }
 }
